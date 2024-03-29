@@ -92,6 +92,11 @@ Markie is a demonstration of \`react-markdown\`, a versatile markdown component 
 - It allows customization of components, enabling the use of custom elements for rendering.
 - \`react-markdown\` is highly extensible with a wide range of plugins available.
 
+## Important Note
+
+- Check out - [\`Landing-Page\`](https://markie-main.vercel.app/)
+- Made By [\`John-Paul]\`](https://john-porfolio.vercel.app)
+
 ## Contents
 
 The content below showcases the usage of various plugins:
@@ -159,9 +164,7 @@ ReactDOM.render(
 
 ## Want to Learn More?
 
-For more detailed information, check out the [GitHub repository](https://github.com/remarkjs/react-markdown).
-
-With Love by [John Paul](https://john-porfolio.vercel.app).`;
+For more detailed information, check out the [GitHub repository](https://github.com/remarkjs/react-markdown).`;
 
   const [markdown, setMarkdown] = useState(defaultMarkdown);
 
