@@ -26,17 +26,6 @@ const Toolbar = ({ insertText }) => {
     insertText(text);
   };
 
-  const redirectToGit = () => {
-    window.open('https://github.com/RJohnPaul', '_blank');
-  };
-
-  const redirectToLink = () => {
-    window.open('https://www.linkedin.com/in/john-paul-572496278/', '_blank');
-  };
-
-  const redirectToLink2 = () => {
-    window.open('https://github.com/remarkjs/react-markdown', '_blank');
-  };
 
   return (
     <div className="flex items-center gap-x-0.5 p-2 bg-gray-200 rounded-md">
@@ -87,24 +76,6 @@ const Toolbar = ({ insertText }) => {
         onClick={() => insertText("```code\n\n```")}
       >
         <FiCode size={20} />
-      </button>
-      <button
-        className="inline-flex items-center justify-center gap-x-2 px-2 py-1 text-sm font-semibold rounded-md border border-transparent text-gray-800 hover:bg-gray-300 disabled:opacity-50 disabled:pointer-events-none dark:text-white dark:hover:bg-gray-700 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
-        onClick={redirectToLink2}
-      >
-        <SiGoogledocs size={20} />
-      </button>
-      <button
-        className="inline-flex items-center justify-center gap-x-2 px-2 py-1 text-sm font-semibold rounded-md border border-transparent text-gray-800 hover:bg-gray-300 disabled:opacity-50 disabled:pointer-events-none dark:text-white dark:hover:bg-gray-700 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
-        onClick={redirectToGit}
-      >
-        <FiGithub size={20} />
-      </button>
-      <button
-        className="inline-flex items-center justify-center gap-x-2 px-2 py-1 text-sm font-semibold rounded-md border border-transparent text-gray-800 hover:bg-gray-300 disabled:opacity-50 disabled:pointer-events-none dark:text-white dark:hover:bg-gray-700 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
-        onClick={redirectToLink}
-      >
-        <FaLinkedinIn size={20} />
       </button>
     </div>
   );
@@ -215,7 +186,7 @@ With Love by [John Paul](https://john-porfolio.vercel.app).`;
   };
 
   const components = {
-    code({ node, inline, className, children, ...props }) {
+    code({ node, inline, className, ...props }) {
       const match = /language-(\w+)/.exec(className || "");
       return !inline && match ? (
         <SyntaxHighlighter
@@ -223,13 +194,12 @@ With Love by [John Paul](https://john-porfolio.vercel.app).`;
           language={match[1]}
           PreTag="div"
           wrapLines={true}
-          children={String(children).replace(/\n$/, "")}
           {...props}
-        />
+        >
+          {String(props.children).replace(/\n$/, "")}
+        </SyntaxHighlighter>
       ) : (
-        <code className={className} {...props}>
-          {children}
-        </code>
+        <code className={className} {...props} />
       );
     },
     ul({ node, ...props }) {
