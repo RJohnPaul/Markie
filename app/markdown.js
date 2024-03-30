@@ -95,7 +95,7 @@ Markie is a demonstration of \`react-markdown\`, a versatile markdown component 
 ## Important Note
 
 - Check out - [\`Landing-Page\`](https://markie-main.vercel.app/)
-- Made By [\`John-Paul]\`](https://john-porfolio.vercel.app)
+- Made By [\`John-Paul\`](https://john-porfolio.vercel.app)
 
 ## Contents
 
