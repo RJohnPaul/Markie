@@ -14,7 +14,7 @@
 
 <div align="center">
   <br>
-      <img src="https://github.com/RJohnPaul/Todolist_app/blob/b275af082aaa9fb5fd9052fbfd88a142078f71f7/2560x1600%20(3).png" alt="Project Banner">
+      <img src="https://github.com/RJohnPaul/Markie/blob/db3ffd4c71902922e6a73fb75691510a5fee63e1/Frame%2040.png" alt="Project Banner">
   </br>
 </div>
 
