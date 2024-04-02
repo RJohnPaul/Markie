@@ -18,6 +18,7 @@
   </br>
 </div>
 
+</br>
 Markie is a versatile Markdown editor built with Next.js. It provides a user-friendly interface for creating and editing Markdown documents, with features like syntax highlighting, live preview, and more.
 
 ## Features
