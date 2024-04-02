@@ -1,5 +1,23 @@
 # Markie
 
+<div align="center">
+  <br>
+      <img src="https://github.com/RJohnPaul/Todolist_app/blob/b275af082aaa9fb5fd9052fbfd88a142078f71f7/2560x1600%20(3).png" alt="Project Banner">
+  </br>
+</div>
+
+<div align="center">
+  <br>
+      <img src="https://github.com/RJohnPaul/Todolist_app/blob/b275af082aaa9fb5fd9052fbfd88a142078f71f7/2560x1600%20(3).png" alt="Project Banner">
+  </br>
+</div>
+
+<div align="center">
+  <br>
+      <img src="https://github.com/RJohnPaul/Todolist_app/blob/b275af082aaa9fb5fd9052fbfd88a142078f71f7/2560x1600%20(3).png" alt="Project Banner">
+  </br>
+</div>
+
 Markie is a versatile Markdown editor built with Next.js. It provides a user-friendly interface for creating and editing Markdown documents, with features like syntax highlighting, live preview, and more.
 
 ## Features
