@@ -81,7 +81,7 @@ Markie is deployed on Vercel. You can access it using the following link:
 
 ## Contributing
 
-Contributions are welcome! Feel free to submit bug reports, feature requests, or pull requests to help improve Markie.
+Contributions are welcome! Feel free to submit bug reports, feature requests, or pull requests to help improve Markie, even single minor contributions would mean a lot.
 
 ## License
 
