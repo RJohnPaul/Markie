@@ -68,7 +68,7 @@ npm run dev
 
 ## Landing Page
 
-Explore the landing page for Markie:
+Explore the landing page for the Markie site :
 
 [Markie Landing Page](https://markie-main.vercel.app/)
 
